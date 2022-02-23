@@ -13,7 +13,6 @@ namespace Kata2_IEquitable
         public string LastName { get; set; }
         public MemberLevel Level {get; set;}
         public DateTime Since { get; set; }
-
         public void RandomInit();
     }
 }

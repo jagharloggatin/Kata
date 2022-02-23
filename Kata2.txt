@@ -11,8 +11,8 @@ Uppgifter:
 	- Implementera IComparable så att medlemmar sorteras efter bonusnivå, efternamn, förnamn, medlemsdatum
 	- Implementera RandomInit()
 	- Implementera en constructor som skapar en instans av Member initierad med slumpmässiga värden
-	- Override ToString() för att skriva ut medlemsdata
-	- Implementera IEquitable<>
+	- Implementera IEquitable<>	- Override ToString() för att skriva ut medlemsdata
+
 		- Kom ihåg legacy: override bool Equals(object obj) => Equals(obj as IMember);
 		- override int GetHashCode() =>
 
